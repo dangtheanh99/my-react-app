@@ -26,7 +26,7 @@ class DetailUser extends React.Component {
     return (
       <>
         <div className="user-title">
-          User's Info {this.props.match.params.id}
+          User's Information {this.props.match.params.id}
         </div>
         <div className="user-info">
           {emptyObj === false && (
